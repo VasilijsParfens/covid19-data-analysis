@@ -6,3 +6,11 @@ pandas
 dash
 plotly
 ydata-profiling
+scikit-learn
+cachetools
+dash-bootstrap-components
+prophet
+pydantic
+statsmodels
+requests
+python-dotenv
