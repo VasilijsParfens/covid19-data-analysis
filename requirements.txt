@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pymongo
+snowflake-connector-python
+pandas
+dash
+plotly
+ydata-profiling
