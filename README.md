@@ -26,6 +26,18 @@ A platform for integrating COVID-19 datasets, enriching them with demographic da
 
 ---
 
+### 📂 Snowflake Data Strategy (Task 10)
+
+* Source: Snowflake Marketplace dataset – COVID19_EPIDEMIOLOGICAL_DATA.PUBLIC.ECDC_GLOBAL (read-only).
+
+* Copy for Sharing: A local copy of the Marketplace table (COVID19_DB_COPY.PUBLIC.ECDC_GLOBAL) is created to allow optimization, materialized views, and sharing.
+
+* SQL Queries: The project repository includes a /sql directory containing SQL scripts optimized to run against the copied database (not the original read-only Marketplace dataset).
+
+* Sharing with Supervisors: For Task 10 (“Share all project structures with the account Snowflake provided by the Bootcamp project leader”), the copy will be shared via a Snowflake share object. Once the supervisor’s account ID is provided, access will be granted.
+
+---
+
 ### 📦 Installation
 
 #### 1. Clone the Repository
@@ -48,6 +60,8 @@ venv\Scripts\activate       # On Windows
 pip install -r requirements.txt
 ```
 
+---
+
 ### ⚙️ Configuration
 
 #### Create a `.env` file in the project root (use `.env.example` as a template) with the following variables:
@@ -67,6 +81,8 @@ SNOWFLAKE_ROLE=<your_snowflake_role>
 SNOWFLAKE_TABLE=<your_snowflake_table>
 ```
 
+---
+
 ### ▶️ Running the Project
 
 #### 1. Start the FastAPI Backend
@@ -85,6 +101,8 @@ python visualization/app.py
 
 👉 ```http://127.0.0.1:8050```
 
+---
+
 ### 📊 Example API Endpoints      
 
 * ```GET /covid-data/?country=italy``` → Returns aggregated totals      
@@ -94,6 +112,8 @@ python visualization/app.py
 * ```GET /cluster-countries/?k=3``` → Clustering results      
 
 * ```POST /comments/``` → Add a comment for a country
+
+---
 
 ### 📸 Screenshots
 
@@ -108,6 +128,8 @@ python visualization/app.py
 
 ![Comments & Annotations](/images/comments.png)  
 *Comments & Annotations – Add and view user notes linked to specific countries*  
+
+---
 
 ### 🤝 Contributing
 
