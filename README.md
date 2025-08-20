@@ -25,8 +25,22 @@ A platform for integrating COVID-19 datasets, enriching them with demographic da
 * **Other Libraries** – `pandas`, `scikit-learn`, `statsmodels`, `prophet`, `ydata_profiling`, `cachetools`, `dash-bootstrap-components`, `pydantic`
 
 ---
+### 📂 Directory Structure
 
-### 📂 Snowflake Data Strategy (Task 10)
+- **api/** – FastAPI backend (endpoints for data, clustering, comments)  
+- **data/** – Local datasets and sample data files  
+- **images/** – Screenshots for README documentation  
+- **reports/** – Generated reports
+- **scripts/** – ETL, data loading script
+- **sql/** – Optimized SQL queries for Snowflake database copy    
+- **visualization/** – Dash/Plotly dashboards for trends, forecasting, clusters  
+- **.env.example** – Example environment configuration template  
+- **.gitignore** – Git ignore rules  
+- **README.md** – Project documentation  
+- **requirements.txt** – Python dependencies  
+
+---
+### ❄️ Snowflake Data Strategy (Task 10)
 
 * Source: Snowflake Marketplace dataset – COVID19_EPIDEMIOLOGICAL_DATA.PUBLIC.ECDC_GLOBAL (read-only).
 
