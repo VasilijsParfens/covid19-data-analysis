@@ -97,6 +97,22 @@ SNOWFLAKE_TABLE=<your_snowflake_table>
 
 ---
 
+📌 Note:
+
+You can obtain your MongoDB connection string from MongoDB Atlas after creating a cluster.
+
+* Go to Database Deployments → Connect → Drivers.
+
+* Copy the provided connection URI and replace `username`, `password`, `cluster-url`, and `dbname` with your details.
+
+* Example:
+
+```bash
+mongodb+srv://myuser:mypassword@cluster0.mongodb.net/covid19?retryWrites=true&w=majority
+```
+
+---
+
 ### ▶️ Running the Project
 
 #### 1. Start the FastAPI Backend
