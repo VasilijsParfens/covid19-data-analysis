@@ -1,5 +1,3 @@
-# api/main.py
-
 from fastapi import FastAPI, HTTPException, Query
 import pandas as pd
 from datetime import datetime
