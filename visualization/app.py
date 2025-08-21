@@ -62,7 +62,7 @@ def fetch_historical_data(country: str) -> pd.DataFrame:
 def make_forecast(df_hist: pd.DataFrame, horizon_days: int = 30) -> pd.DataFrame:
     """Create Prophet forecast for given horizon."""
     if not PROPHET_AVAILABLE:
-        return pd.DataFrame()
+        return go.Figure(layout=dict(title="Forecast unavailable — Prophet not installed"))
     if df_hist.empty or not {'ds', 'y'}.issubset(df_hist.columns):
         return pd.DataFrame()
     try:
