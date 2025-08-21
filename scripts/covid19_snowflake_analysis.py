@@ -1,5 +1,3 @@
-#scripts/covid19_snowflake_analysis.py
-
 import snowflake.connector
 import pandas as pd
 from ydata_profiling import ProfileReport
