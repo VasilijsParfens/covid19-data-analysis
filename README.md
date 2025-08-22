@@ -176,7 +176,28 @@ python visualization/app.py
 *Comments & Annotations – Add and view user notes linked to specific countries*  
 
 ---
+### 📚 References:
 
+* Cachetools Contributors. cachetools Documentation. Available at: https://cachetools.readthedocs.io
+* FastAPI Developers. FastAPI Documentation. Available at: https://fastapi.tiangolo.com
+* Facebook Research. Prophet Documentation. Available at: https://facebook.github.io/prophet
+* Kaggle (Sourav Banerjee). World Population Dataset. Available at: https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset
+* MongoDB Inc. MongoDB Documentation. Available at: https://www.mongodb.com/docs
+* Pandas Development Team. pandas Documentation. Available at: https://pandas.pydata.org/docs
+* Plotly Technologies Inc. Dash Documentation. Available at: https://dash.plotly.com
+* Plotly Technologies Inc. Plotly Python Documentation. Available at: https://plotly.com/python
+* Prophetic (Facebook Research). Prophet Documentation. Available at: https://facebook.github.io/prophet
+* PyMongo Developers. PyMongo Documentation. Available at: https://pymongo.readthedocs.io
+* Pydantic Developers. Pydantic Documentation. Available at: https://docs.pydantic.dev
+* Python Requests Contributors. Requests Documentation. Available at: https://requests.readthedocs.io
+* Python Software Foundation. Python Documentation. Available at: https://docs.python.org
+* Python-dotenv Developers. python-dotenv Documentation. Available at: https://saurabh-kumar.com/python-dotenv
+* Scikit-learn Developers. scikit-learn Documentation. Available at: https://scikit-learn.org/stable/documentation.html
+* Snowflake Inc. Snowflake Documentation. Available at: https://docs.snowflake.com
+* Statsmodels Developers. Statsmodels Documentation. Available at: https://www.statsmodels.org
+* Uvicorn Developers. Uvicorn Documentation. Available at: https://www.uvicorn.org
+* ydata. ydata-profiling Documentation. Available at: https://ydata-profiling.ydata.ai/docs
+---
 ### 🤝 Contributing
 
 Contributions are welcome! Please fork the repo, create a branch, and submit a pull request.
