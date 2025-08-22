@@ -85,14 +85,14 @@ pip install -r requirements.txt
 MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/<dbname>?retryWrites=true&w=majority&appName=<appName>
 
 # Snowflake
-SNOWFLAKE_USER=<your_snowflake_user>
-SNOWFLAKE_PASSWORD=<your_snowflake_password>
-SNOWFLAKE_ACCOUNT=<your_snowflake_account>
-SNOWFLAKE_WAREHOUSE=<your_snowflake_warehouse>
-SNOWFLAKE_DATABASE=<your_snowflake_database>
-SNOWFLAKE_SCHEMA=<your_snowflake_schema>
-SNOWFLAKE_ROLE=<your_snowflake_role>
-SNOWFLAKE_TABLE=<your_snowflake_table>
+SNOWFLAKE_USER=<your_user>          # e.g. JOHNDOE  
+SNOWFLAKE_PASSWORD=<your_password>  # e.g. MySecurePass123!  
+SNOWFLAKE_ACCOUNT=<your_account>    # e.g. ab12345.eu-central-1.aws  
+SNOWFLAKE_WAREHOUSE=<your_wh>       # e.g. COMPUTE_WH  
+SNOWFLAKE_DATABASE=<your_db>        # e.g. COVID19_DB_COPY  
+SNOWFLAKE_SCHEMA=<your_schema>      # e.g. PUBLIC  
+SNOWFLAKE_ROLE=<your_role>          # e.g. ACCOUNTADMIN  
+SNOWFLAKE_TABLE=<your_table>        # e.g. ECDC_GLOBAL  
 ```
 
 ---
