@@ -114,6 +114,22 @@ mongodb+srv://myuser:mypassword@cluster0.mongodb.net/covid19?retryWrites=true&w=
 ---
 
 ### ▶️ Running the Project
+⚠️ Important: All commands below should be executed inside the virtual environment (venv).
+Activate it first with:
+```bash
+source venv/bin/activate    # On Linux/macOS
+venv\Scripts\activate       # On Windows
+```
+
+#### 0. Run the Snowflake Analysis Script (First-Time Setup)
+
+Before starting the API or dashboard, you need to run the analysis script once to fetch and prepare the COVID-19 dataset from Snowflake:
+
+```bash
+python scripts/covid19_snowflake_analysis.py
+```
+
+This will connect to Snowflake, extract the required data, and generate the processed dataset used by the API and visualization components.
 
 #### 1. Start the FastAPI Backend
 
